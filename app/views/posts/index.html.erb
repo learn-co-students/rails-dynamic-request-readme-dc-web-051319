@@ -1,0 +1,8 @@
+<html>
+    <head><title>INDEX</title></head>
+    <body>
+        <% @posts.each do |post| %>
+        <%= post.title %> - <%= post.created_at %>
+        <% end %>
+    </body>
+</html>
